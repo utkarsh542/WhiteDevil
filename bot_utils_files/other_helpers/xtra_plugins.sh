@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 
-PLUGIN_REPO="https://github.com/DevsExpo/Xtra-Plugins.git"
+PLUGIN_REPO="https://github.com/WhiteDevil-OP/WhiteDevilAddOn"
 xtra_fold="./xtraplugins"
 req_file="./xtraplugins/req.txt"
 
