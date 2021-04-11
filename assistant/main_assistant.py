@@ -39,7 +39,7 @@ async def start(client, message):
     bot_username = starkbot.username
     firstname = message.from_user.first_name
     user_id = message.from_user.id
-    starttext = f"`Hello, {firstname} ! Nice To Meet You, Well I Am {bot_name}, An Powerfull Assistant Bot To Talk And Do Many Things For My Master!`. \n\nPowered By [Friday Userbot](t.me/FridayOT)"
+    starttext = f"`Hello, {firstname} ! Nice To Meet You, Well I Am {bot_name}, An Powerfull Assistant Bot To Talk And Do Many Things For My Master!`. \n\nPowered By [White Devil X](t.me/WhiteDevilOT)"
     mypic = Config.ASSISTANT_START_PIC
     if user_id not in all_user_s:
         await client.send_photo(
@@ -47,14 +47,14 @@ async def start(client, message):
             mypic,
             starttext,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Help Me ❓", url="t.me/Fridayot")]]
+                [[InlineKeyboardButton("Help Me ❓", url="t.me/WhiteDevilot")]]
             ),
         )
         kok = await check_user(user_id)
         if not kok:
             await add_user(user_id)
     else:
-        message87 = f"Hi Master, It's Me {bot_name}, Your Assistant ! \nWhat You Wanna Do today ?"
+        message87 = f"Hey Master, It's Me {bot_name}, Your Superb Assistant ! \nWhat You Wanna Do today☺️ ?"
         await client.send_photo(
             message.chat.id,
             mypic,
@@ -63,7 +63,7 @@ async def start(client, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "Add Me to Group 👥",
+                            "Add Me to Group 🤖",
                             url=f"t.me/{bot_username}?startgroup=true",
                         )
                     ],
@@ -227,7 +227,7 @@ async def ping(client, message):
     ms = (end - start).microseconds / 1000
     await client.send_message(
         message.chat.id,
-        f"**█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄**\n ➲ `{ms}` \n ➲ `{uptime}`",
+        f"**𝗪𝗛𝗜𝗧𝗘 𝗗𝗘𝗩𝗜𝗟 𝗫**\n ➲ `{ms}` \n ➲ `{uptime}`",
     )
 
 
@@ -261,7 +261,7 @@ async def tts_(client, message):
     metadata = extractMetadata(createParser(f"{kk.get(language)}.ogg"))
     if metadata and metadata.has("duration"):
         duration = metadata.get("duration").seconds
-    owoc = f"**TTS** \n**Detected Text Language :** `{dec_s.capitalize()}` \n**Speech Text :** `{kk.get(language)}` \n**Time Taken :** `{hmm_time}s` \n__Powered By @FridayOT__"
+    owoc = f"**TTS** \n**Detected Text Language :** `{dec_s.capitalize()}` \n**Speech Text :** `{kk.get(language)}` \n**Time Taken :** `{hmm_time}s` \n__Powered By @WhiteDevilot__"
     await message.reply_audio(
         audio=f"{kk.get(language)}.ogg", caption=owoc, duration=duration
     )
