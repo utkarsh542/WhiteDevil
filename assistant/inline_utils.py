@@ -189,7 +189,7 @@ async def owo(client, inline_query):
                     )
                 ],
             ]
-        nice_text = f"**FridayUserBot Commands** \n**Friday Version :** __{friday_version}__ \n**PyroGram Version :** __{__version__}__ \n**Total Plugins Loaded :** __{len(CMD_LIST)}__"
+        nice_text = f"**White Devil X Commands** \n**White Devil Version :** __{friday_version}__ \n**PyroGram Version :** __{__version__}__ \n**Total Plugins Loaded :** __{len(CMD_LIST)}__"
         await client.answer_inline_query(
             inline_query.id,
             cache_time=0,
@@ -286,7 +286,7 @@ async def get_back_vro(client, cb):
         is_official = False
     cmd_list = CMD_LIST if is_official else XTRA_CMD_LIST
     buttons = paginate_help(page_number, cmd_list, "helpme", is_official=is_official)
-    nice_text = f"**FridayUserBot Commands & Help Menu!** \n\n**Friday Version :** __{friday_version}__ \n**PyroGram Version :** __{__version__}__ \n**Total Plugins Loaded :** __{len(CMD_LIST)}__"
+    nice_text = f"**White Devil X Command & Help Menu!** \n\n**White Devil X Version :** __{friday_version}__ \n**PyroGram Version :** __{__version__}__ \n**Total Plugins Loaded :** __{len(CMD_LIST)}__"
     await cb.edit_message_text(nice_text, reply_markup=InlineKeyboardMarkup(buttons))
 
 
@@ -299,7 +299,7 @@ async def give_plugin_cmds(client, cb):
         is_official = False
     cmd_list = CMD_LIST if is_official else XTRA_CMD_LIST
     help_string = f"**💡 PLUGIN NAME 💡 :** `{plugin_name}` \n{cmd_list[plugin_name]}"
-    help_string += "\n\n**(C) @FRIDAYOT** ".format(plugin_name)
+    help_string += "\n\n**(C) @whitedevilot** ".format(plugin_name)
     await cb.edit_message_text(
         help_string,
         reply_markup=InlineKeyboardMarkup(
