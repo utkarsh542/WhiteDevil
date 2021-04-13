@@ -58,7 +58,7 @@ async def amialive(client, message):
     du = psutil.disk_usage(client.workdir)
     disk = f"{humanbytes(du.used)} / {humanbytes(du.total)} " f"({du.percent}%)"
     alive = f"""
-**{me_}'s Friday-UserBot is Alive!**
+**{me_}'s White Devil X is Alive!**
 
 ➔ **Version :** __{friday_version}__
 ➔ **Uptime :** __{get_readable_time((time.time() - start_time))}__
@@ -67,6 +67,7 @@ async def amialive(client, message):
 ➔ **OS :** __{platform.system()}__
 ➔ **CPU :** __{len(psutil.Process().cpu_affinity())}__
 ➔ **DISK USAGE :** __{disk}__
+➔ **COPYRIGHT : WHITE DEVIL X
 """
     if message.reply_to_message:
         await client.send_photo(
