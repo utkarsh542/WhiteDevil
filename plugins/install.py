@@ -16,7 +16,7 @@ from main_startup.helper_func.basic_helpers import edit_or_reply
 @friday_on_cmd(
     ["install"],
     cmd_help={
-        "help": "Install Custom Plugins In Userbot",
+        "help": "Install Custom Plugins In Userbot 😁🔥",
         "example": "{ch}install (replying to plugin (.py))",
     },
 )
@@ -31,7 +31,7 @@ async def installer(client, message):
     file_name = message.reply_to_message.document.file_name
     ext = file_name.split(".")[1]
     if os.path.exists(os.path.join("./plugins/", file_name)):
-        await pablo.edit("`This Plugin is Already Installed!`")
+        await pablo.edit("`This Plugin is Already Installed!👀`")
         return
     if not ext.lower() == "py":
         await pablo.edit("`Only Py Files :(`")
@@ -42,7 +42,7 @@ async def installer(client, message):
     try:
         load_plugin(file_n)
     except Exception as e:
-        await pablo.edit(f"Error Installing Plugin.\n**Error** {e}")
+        await pablo.edit(f"Error Installing Plugin.\n**Error**😖😖 {e}")
         os.remove(Escobar)
         return
-    await pablo.edit(f"`Sucessfully Installed {file_name}!`")
+    await pablo.edit(f"`Sucessfully Installed {file_name}😁🔥!`")
