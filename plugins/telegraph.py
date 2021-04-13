@@ -46,7 +46,7 @@ async def telegrapher(client, message):
             )
             os.remove(m_d)
             return
-        U_done = f"Uploaded To Telegraph! \nLink : https://telegra.ph/{media_url[0]}"
+        U_done = f"Uploaded To Telegraph!😁🔥 \nLink : https://telegra.ph/{media_url[0]}"
         await pablo.edit(U_done, disable_web_page_preview=False)
         os.remove(m_d)
     elif message.reply_to_message.text:
