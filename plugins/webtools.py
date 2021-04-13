@@ -163,9 +163,9 @@ async def giveapkbro(client, message):
         for link in result:
             dl_link = link.get("href")
             r = requests.get(dl_link)
-            with open(f"{name}@FridayOT.apk", "wb") as f:
+            with open(f"{name}@WhiteDevilot.apk", "wb") as f:
                 f.write(r.content)
-    final_path = f"{name}@FridayOT.apk"
+    final_path = f"{name}@WhiteDevilot.apk"
     await stark_m.edit("`Apk Downloaded To My Servers, Now Starting To Upload Here!`")
     e_time = time.time()
     hmm_time = round(e_time - c_time)
