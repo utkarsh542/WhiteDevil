@@ -169,7 +169,7 @@ async def giveapkbro(client, message):
     await stark_m.edit("`Apk Downloaded To My Servers, Now Starting To Upload Here!`")
     e_time = time.time()
     hmm_time = round(e_time - c_time)
-    caption_eh = f"**App Name :** `{name}` \n**Time Taken :** `{hmm_time}` \n**Uploaded Using FridayUserBot**"
+    caption_eh = f"**App Name :** `{name}` \n**Time Taken :** `{hmm_time}` \n**Uploaded Using White Devil X**"
     await message.reply_document(
         final_path,
         progress=progress,
