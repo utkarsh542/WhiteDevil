@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/fridayot"><img src="https://telegra.ph/file/411a57efa40a4c73bb639.jpg" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/WhiteDevilOt"><img src="https://telegra.ph/file/411a57efa40a4c73bb639.jpg" width="5000"></a></p> 
 <h1 align="center"><b>WHITE DEVIL-USERBOT 🇮🇳 </b></h1>
 <h4 align="center">A Powerful, Smart And Simple Userbot In Pyrogram.</h4>
 
