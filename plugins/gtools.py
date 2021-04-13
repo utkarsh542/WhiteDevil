@@ -27,7 +27,7 @@ from plugins import devs_id
 @friday_on_cmd(
     ["gmute"],
     cmd_help={
-        "help": "Globally Mute The User!",
+        "help": "Globally Mute The User!😁🔥",
         "example": "{ch}gmute (reply to user messages OR provide his ID)",
     },
 )
