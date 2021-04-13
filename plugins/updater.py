@@ -25,7 +25,7 @@ BRANCH_ = Config.U_BRANCH
 
 
 @friday_on_cmd(
-    ["update"], cmd_help={"help": "Update Your UserBot!", "example": "{ch}update"}
+    ["update"], cmd_help={"help": "Update Your UserBot!😁🔥", "example": "{ch}update"}
 )
 async def update_it(client, message):
     msg_ = await edit_or_reply(message, "`Updating Please Wait!`")
@@ -33,7 +33,7 @@ async def update_it(client, message):
         repo = Repo()
     except GitCommandError:
         return await msg_.edit(
-            "`Invalid Git Command. Please Report This Bug To @FridayOT`"
+            "`Invalid Git Command. Please Report This Bug To @Whitedevil_support`"
         )
     except InvalidGitRepositoryError:
         repo = Repo.init()
