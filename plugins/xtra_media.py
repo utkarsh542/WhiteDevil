@@ -196,8 +196,8 @@ async def yandex_(client, message):
 Reverse Searched Link:- {img_search_url}
 Note:- Yandex is a Russian search engine, so better open link in chrome with auto-translate.
 Another Note:- Don't Use This Command continually, Yandex Will Block Your Request.
-<u><b>Reverse Search Completed By Friday.
-Get Your Own Friday From @FRIDAYCHAT.</b></u>
+<u><b>Reverse Search Completed By WHITE DEVIL X.
+Get Your Own Friday From @WhiteDevil_Support.</b></u>
 """
     await pablo.edit(caption, parse_mode="HTML")
     os.remove(imoge)
@@ -207,7 +207,7 @@ Get Your Own Friday From @FRIDAYCHAT.</b></u>
     ["img", "googleimage", "image", "gi"],
     cmd_help={
         "help": "Search Images In Telegram Itself",
-        "example": "{ch}img fridayuserbot",
+        "example": "{ch}img White Devil X",
     },
 )
 async def img_search(client, message):
