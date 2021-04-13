@@ -22,7 +22,7 @@ friday_version = "V8.0 - ReBorn"
 # Enable Logging For Pyrogram
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - [FridayUB] - %(levelname)s - %(message)s",
+    format="%(asctime)s - [WhiteDevilUB] - %(levelname)s - %(message)s",
 )
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("apscheduler").setLevel(logging.ERROR)
