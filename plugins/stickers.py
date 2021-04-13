@@ -85,7 +85,7 @@ async def packinfo(client, message):
     else:
         name = message.from_user.first_name
     packname = f"@{nm} Kang Pack {pack}"
-    packshortname = f"FRIDAY_{message.from_user.id}_{pack}"
+    packshortname = f"WHITEDEVIL_{message.from_user.id}_{pack}"
     non = [None, "None"]
     emoji = "😁"
     try:
