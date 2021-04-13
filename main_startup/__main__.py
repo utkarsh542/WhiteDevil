@@ -109,7 +109,7 @@ async def run_bot():
     full_info = f"""Friday Based On Pyrogram V{__version__}
 Python Version : {platform.python_version()}
 Friday Version : {friday_version}
-You Can Visit @FridaySupportOfficial For Updates And @FridayChat For Any Query / Help!
+You Can Visit @WhiteDevil_Support For Updates And @WhiteDevilot For Any Query / Help!
 """
     logging.info(full_info)
     await pyrogram.idle()
