@@ -129,7 +129,7 @@ async def aexec(code, client, message):
     cmd=["rc", "run"],
     cmd_help={
         "help": "Reply To Any Programming Language's Code To Eval In Telegram!",
-        "example": "{ch}run python print('FridayUserBot')",
+        "example": "{ch}run python print('WhiteDevilX-UB')",
     },
 )
 async def any_lang_cmd_runner(client, message):
